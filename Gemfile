@@ -34,6 +34,7 @@ gem "sassc-rails"
 gem "devise"
 gem "faker"
 gem "httparty"
+gem "nokogiri"
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
