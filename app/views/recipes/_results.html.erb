@@ -1,0 +1,13 @@
+<div id="results">
+  <% if @recipes.any? %>
+    <ul>
+      <% @recipes.each do |recipe| %>
+        <li>
+          <%= recipe.name %>
+        </li>
+      <% end %>
+    </ul>
+  <%# <% else %>
+    <%# <p>No results found.</p> %>
+  <% end %>
+</div>
